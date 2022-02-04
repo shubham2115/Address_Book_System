@@ -12,6 +12,10 @@ namespace Address_Book_System
             AddressBook.ContactsDisplay();
             AddressBook.EditContact();
             AddressBook.ContactsDisplay();
+            AddressBook.ContactsDisplay();
+            Console.WriteLine("\n");
+            AddressBook.DeleteContact();
+            AddressBook.ContactsDisplay();
         }
     }
 }
