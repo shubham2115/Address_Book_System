@@ -8,13 +8,17 @@ namespace Address_Book_System
         {
             Console.WriteLine("Welcome to Address Book System");
 
-            AddressBook.AddContact();
-            AddressBook.ContactsDisplay();
-            AddressBook.EditContact();
-            AddressBook.ContactsDisplay();
+            AddressBook.addAddressBook();
+            Console.WriteLine("\n");
             AddressBook.ContactsDisplay();
             Console.WriteLine("\n");
-            AddressBook.DeleteContact();
+            AddressBook.EditContact();
+            Console.WriteLine("\n");
+            AddressBook.ContactsDisplay();
+            Console.WriteLine("\n");
+            AddressBook.ContactsDisplay();
+            AddressBook.ContactsDisplay();
+            AddressBook.ContactsDisplay();
             AddressBook.ContactsDisplay();
         }
     }
